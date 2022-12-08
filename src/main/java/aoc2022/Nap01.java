@@ -6,7 +6,7 @@ import java.util.List;
 
 public class Nap01 {
     public static void main(String[] args) {
-        List<Integer> elfek = elfekFeldolgozasa(STRING_INPUT);
+        List<Integer> elfek = elfekFeldolgozasa();
         System.out.println(elfek.get(0));
         System.out.println(top3ElfSumma(elfek));
     }
@@ -15,8 +15,8 @@ public class Nap01 {
         return elfek.stream().limit(3).mapToInt(Integer::intValue).sum();
     }
 
-    private static List<Integer> elfekFeldolgozasa(String stringInput) {
-        String[] split = stringInput.split("\n");
+    private static List<Integer> elfekFeldolgozasa() {
+        String[] split = Nap01.STRING_INPUT.split("\n");
         List<Integer> elfek = new ArrayList<>();
         int jelenlegi = 0;
         for (String sor : split) {
@@ -32,7 +32,7 @@ public class Nap01 {
         return elfek;
     }
 
-    static String STRING_INPUT = """
+    private static final String STRING_INPUT = """
                  2832
                  2108
                  3082
