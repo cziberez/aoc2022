@@ -56,304 +56,305 @@ public class Nap03 {
         }
     }
 
-    private static final String STRING_INPUT = "shzsFcPssFhjFssBzdpRcNHNZrpdJdJVJZ\n" +
-            "fwvMCntfCCbSbSbtDgDNrDtDtJHZVH\n" +
-            "GbCwwbwwnGrLhBzjFFFsWPhL\n" +
-            "PpCqRsqqmmtCwMJC\n" +
-            "LHFrLLHDSNHlfWNhDzmjzzJlJzPJMvPJjQ\n" +
-            "SGSWDNrhZhPDSWDZLgVVRgbRppgpGVnpnn\n" +
-            "GRRjbVjmJZlgMRzzrN\n" +
-            "FpDptHpfHfnpPTvDFTWpFPnPcMfNCClNrzcVcrMMzVsCZlsZ\n" +
-            "TFTQDnvLHPFDtVbLwbjdGjdwwJ\n" +
-            "lhljvvhCjjzhjszzBPmnmGVZMGzG\n" +
-            "FbTcTwbtSFdtcMPnTBPQVnnBZT\n" +
-            "SFMpHDtNDSSbSdwppvgJWjJCJJgWgvlJHH\n" +
-            "wzNCWpzCzJnWWpRRNdJrgHLhjfbLrHrchV\n" +
-            "lBMStmPmmLQDPQZlshrdhgrfrcrrddgHgs\n" +
-            "mvGDGQSvDPBlGMLGCvCWpNvpzRWFwqRw\n" +
-            "stBttBThtDZqPWssPWZp\n" +
-            "gRggwwggCGFSBBvPRpHZZrHdZLZq\n" +
-            "ccFJGCNJmmGQzbTDhnQhBBnB\n" +
-            "HJqMqtZbJMmJTqtLtVMqhpfphNdQfhfzzjhhlHll\n" +
-            "rWSBrnwFwWCvwWCwBgPgCgzjQccQhhgRzcdQzjfcNfzR\n" +
-            "CWBCwCvCvvwssWLMtJJGMdMZJsGV\n" +
-            "nFwSFQwsNrrsssSwCrhrCNnfcCRgJRMJTJcMfRzMCMCRvW\n" +
-            "DdbGdLZLttllWWvTzgzzgR\n" +
-            "ZqGzPdLtDjBjDZGPZVmnhQFwqrFQhVFnss\n" +
-            "sNNpCjttjsJjSpgpWjslCTnqqSVffrnhSfDhmhrhfm\n" +
-            "dBwcGzbPBHbbwZcwJbcTTFDFFFDVrdVmFdnDqf\n" +
-            "HzGcczQPHGwzPzGHRctWlvRgtvJlvNlJvRNj\n" +
-            "cFNCFdvcCHvFBCZcwBfRSpttGhDmCghGShmSRt\n" +
-            "QjLnTTzQVzTTnLMqhDgPhGDDSjGPrgSh\n" +
-            "TTJGnJJlLQdNWZWJNBJZ\n" +
-            "WHBpHcMDZHLDbHLtGCnmRmLNGmRqvsCC\n" +
-            "PzTFzPPTJzrSbGsvnmqfsqfqRz\n" +
-            "dJSQQdVFQgjTrjQPWcWHbBVcZVccZtWp\n" +
-            "JDtnRtJzNzTTNlHc\n" +
-            "rQPJFrLPGMMwrGPFwjFMVLjSTWHdWBTdSWdWZlcWTHlZ\n" +
-            "MGFrCvLLwrwPFVVhvLMGGtnqfsmRJgDnqbRgfbqmfC\n" +
-            "jnTtFjcSSvctJjznzvFmpqqPMqQDRVpRqPzqQzVQ\n" +
-            "bhHBfrWpfHsfGNllRrRCPqDCqPqq\n" +
-            "gsGZZpbWgbwHWGNgfZNjvLSTTjtnTgjSSSSJmL\n" +
-            "RLQNdVNnRQdQHVVLGpspNqvtsqptqpTtsp\n" +
-            "MlRWwbRBBFMFjCTFTTFDvj\n" +
-            "WmlWBmBwwmrndnmLRHRQ\n" +
-            "WnftJWlfnWSHGCjWWWSCFqFGBDqBwMcDmmMmGmqD\n" +
-            "pTNhpTrPhhhRPzbhrppLhThLgqDmwccwqPBmMMqnFBcwwmBB\n" +
-            "ZrhQTpzdjSVVtnvZ\n" +
-            "jgtnJtBjtlTdJBZJVQBngQGDCGWpPGCcPWCbWdWMbcpP\n" +
-            "wHstNNttSHPDmHcMCp\n" +
-            "rrFFSvLLNfsFtNSqrtfrhsNjjVTBVgVvnTBvTQvjTgjVZz\n" +
-            "qhZwlqFqFwlJwrDHqHcDvgcNzv\n" +
-            "RCCTQmjCbQTBtRTbjJRDpBrgDHPPpPDvHccDPc\n" +
-            "VmjVWstQJhlJlGVJ\n" +
-            "GggpGwZmgvgJMvbJFQQDbDFbBbFCQDCW\n" +
-            "rtrLzNLtNSPnNqDSQDcQCWlqBQ\n" +
-            "VtzdRPtztLtVRtZmmMTRwCGZpMwp\n" +
-            "vtvqjsCqtshfjcWFHWGjGFJj\n" +
-            "zGrnzDDMpPcTHcSTVTJP\n" +
-            "DbDwMbZRDrZdBBnMznZMGZDfwtlgQhsqCttClsqvsLfCff\n" +
-            "JLzLtLsrzsQdvrWRwMHwcc\n" +
-            "qPmCTzlPjljjFTZmWwcwwvHMMRWwHvMm\n" +
-            "PFqZnVCqTCNjCzNgQsbGBLzLQQ\n" +
-            "CBnppDHllVpPCBshBHpjDTSmZcSrfwvmJcDDTJfw\n" +
-            "dFRLdLFQzNSTBTSNmBJv\n" +
-            "FzFFzRMBFWtQlPlsjjPVMnhC\n" +
-            "CVCfwnfdVvBdBbTNTT\n" +
-            "LNzsHPNWsDjTZqDHqT\n" +
-            "PtLgQsGQLSzWLstPgGWcgQLSNrpplffrnrNhpVCwlGVlrwMn\n" +
-            "jPPVqPsHffzVnHzvSgMcCJGGMSVCll\n" +
-            "pdbpDpBLNmNNppJgcvgSllGjDSGQ\n" +
-            "hrbBwLpjLhhhNZLhNrhZZLHzfsztFzzsrtHfRFnFfRHf\n" +
-            "tdjBdbmSfdHBdHHmZlWjFrnlWQlqvMFvFn\n" +
-            "pDNDJhLhPVPLLLJphJLwNcwnQTcWWTqTrqMWTZvqMrlvFM\n" +
-            "gpVLhNwpgZJCghCLDNwphgmsBdzHHHmSstmfggzdbR\n" +
-            "TfMpfMBVftLMDBSjWDHgzHbgwLgHHvdzggzs\n" +
-            "QJnZcFFnZRHdHjJvwgdg\n" +
-            "RjjRRnmNmmZNjZqZnQcVffBrWqVTqrtffTSTVV\n" +
-            "fZTdTVcVjrjdBzdTnGtgnnGSHHNFGn\n" +
-            "thMWPtPMslmGnWnNnS\n" +
-            "thvbMvQMRphhLCjrzBjZVdcQfC\n" +
-            "MpmgZFgMGdrFrBCVnJ\n" +
-            "JsbJlTTlvLQbVffRRvBBRVjd\n" +
-            "LWlbhHlJhLTJmmGcMMHNmNgN\n" +
-            "bhvmhPrbhqNqQRRGzQjVvvRL\n" +
-            "wTwBZDBTwwggfnngcDfdsVVFQCdzCzDVRsFdQs\n" +
-            "pngWMcgzMgpZWncnMpWNrbNHrNbmHhltWlbl\n" +
-            "nPndBjLPscWSccBVGnScsSzMdhMppMthdMgpMgrzvhhp\n" +
-            "CCFTFDwqZqCCJmhvpDzztVzDNztp\n" +
-            "qQFJTbRVbmCfwTwfmnnssWBGnLnWlRLSGn\n" +
-            "JRlJDSvLRRCdvmDSvdlbZNVBSWZGNgWsZGNgZBVs\n" +
-            "QrjPMqMnLzzjLjFnNNgBpsgtgGGGVZ\n" +
-            "hrjrFqjqFrQfMHPhQzDvvCLJdwwwmvbJbwDH\n" +
-            "HDGrDDDpNsGQNdZQ\n" +
-            "jpjgtgjSjpjllfZZtZsvNdtshqqq\n" +
-            "cbgMfjclWTJcMwjWJfpfmVPLPBnVBHnmVbnmLBbD\n" +
-            "rPrMZNsNrsvrwqvFFFdgQWNzLJJzRW\n" +
-            "pStppStHmcmHpgVSllVcbVbWWDdLFhdbzdRRFhJFLLRF\n" +
-            "cltCHmCBmtSlgjpllgGvTwPZPMfZvPsCMCwZvC\n" +
-            "FRQQMdlFMDWRFQRQMQQDWdFbSSSVJSBbJSlBVVBnPJnzJL\n" +
-            "rsftPfhsrgwznSzzHSLgJG\n" +
-            "fhNsjrjhvsTTvdjcCRMRMRPcCW\n" +
-            "tRtJttHFrjtDQHHBQMMBgMBSghhZQb\n" +
-            "vqWPLpLvqrmPdmqwvqfmPhNBBBlSnbwbgnlnlhNSZZ\n" +
-            "pGpdfzLLspddmqsqPvfvvPpGTVcJJCDRjHrccRtDjcRDFD\n" +
-            "GJMHCdTMWJRhSTlhhSPllt\n" +
-            "fVvqpfBFrqvqNzzgVDFrpDPmSVtQSlSmhjwltlRtmVhn\n" +
-            "pzpBNDBzfDrsNsDRJJRdCssMLdLZWZ\n" +
-            "hFfvWWvdpCwwcwFhphpcZCMmllHLfmbQlbrQLBJmGgQrQm\n" +
-            "nVSNGjGzzSVNTsjzSJrbSrHBSHlrrmQHJB\n" +
-            "PttTNsTRVnNjNqRnzRzRWCCCcpMCWGPMwwFZvFwW\n" +
-            "DvZbFnDDsqDBwwRQgNBm\n" +
-            "HhWpWWRMWChlChdHLlGlGtQtggSNPSSpgPmNgPJQtw\n" +
-            "CMlWGMhhCVHlLCdHTHdrGHdbzjVqnzcvqqjRjFbbzbFFqR\n" +
-            "ZZgCNqqBmjZsNgZCqJgNBdrLFHbBrWlPdHWFbPnHPW\n" +
-            "TVwTDfzDwSDzmcSTcrzdbllnHPHdFlLzbF\n" +
-            "tvDQwVtVvDVmtRsNMgRpJg\n" +
-            "BBpDCpNJnmnpnDDmDGGmtTzqHcGTvTTjTbGjHLVcLb\n" +
-            "swNNhPwwHzTVwwHw\n" +
-            "rPRlPRhSQmmBDpnNfl\n" +
-            "pbRhffPzcPDmfcNTpVBLpBjMGBGjZLLg\n" +
-            "ssrCsqrszgJjZMqZLQ\n" +
-            "SzCwnsllCrssvdrvwzPmDmPPbFRbSThPTPDD\n" +
-            "QWLfcfczQQpcDTpLPfdZRRvRRVqbFWvZbvtqvv\n" +
-            "NsGGJBhCmNdZVqsbdssZ\n" +
-            "rMwwwBBJMrdzPfQMpzMnLQ\n" +
-            "rdtCQhrCtQQprtTWQCHFjPgGBPdFPgvBqRRPqB\n" +
-            "lsVsSnVSbLmmgBcgTLTFGgvq\n" +
-            "wTTDTszsbzMDppJrJhDQ\n" +
-            "ZlmsGLBVCBBZFCFFHqcHVvQhqVQSSHpH\n" +
-            "dbbTRMrRwwzDfrTbFtMvcptvHFQQpqtc\n" +
-            "gdJTDWgfwDwTwmgmNPnNsgFBlZ\n" +
-            "PWhWhGFzzzrLdHCPccbJQJcHPD\n" +
-            "NRpVTpTgRWVlHJNHMcHQMb\n" +
-            "pSRSpVSZWRSTZjgTRTWnFLdZLrrndhdzZvtvzn\n" +
-            "LgctLgVBVLhlPjqRhBLVcVlhbDDcGnNGfwCrbNDnrGbGCJNw\n" +
-            "HmppHMWWmQmMqZZHWQrDDfDCffJrDGJrCb\n" +
-            "qpWZsZZZMZWTLPhTRgTtThRP\n" +
-            "hfhQfFQWzBfhfTQdmzdLDtDjtvHLjt\n" +
-            "qsgpcqMNRmgpqsCwpCmZDvjwvdddHZHvZDtrrd\n" +
-            "SgmNmqScbTSJbhJQ\n" +
-            "dvMTQvTnZJsrQdbbSvMVZMblDwlflfDGgwwHcfGjPfjjrG\n" +
-            "FqBLpBpFpFzRzqNFmgjGlDRHcwPPGwgcgs\n" +
-            "tLNtWshsLLqWMJhTQVVbhvJd\n" +
-            "bgZLMZgzbbLCcPCbMZbcNMgBqSTqSWVtSzvvTTBTqBvRBW\n" +
-            "FhQpJQnGrlhGlrnTqRtTRJqSwDwtVR\n" +
-            "FqlnnFnqFHnGHHdNZdbZbCNMdPLMPb\n" +
-            "HHFnbftcfnfbbTbTnHTNVZZzJlPQlFrFzVJFZsdr\n" +
-            "mvpGCBgwqCvLCqvMQWWzsQQWlPzwzsrV\n" +
-            "hpGSGgqSvqbHcnhfVfct\n" +
-            "lGVrnHsGcnVHzscrlGjHcrHqqWPlJCPJClTLLqCSPLPdqS\n" +
-            "fRbwbtMQZtMMRFMSqfJTTWCTJPJCmd\n" +
-            "ggdvtvdbVVGnpDGg\n" +
-            "BnBjTcbnvhjjlMnNJJfnDnQDGdNDfP\n" +
-            "qwFqVSWwqLpWFmFVCSqFpDDCJNJRQTRfRDGPfdfDQN\n" +
-            "zwHwWVVWWFSqqwWTLqzzztHMvBhlcghblMlcttMllh\n" +
-            "PFFNPNPmlFllbctNLmcjBstrsVrQHJSSHHSnnB\n" +
-            "fddfDhdwGhTWWTDMwMggssjsjndsBsjsnSrVqSVV\n" +
-            "MCvvTWvRMwCvGPpzCcmbplpCVC\n" +
-            "thTqlPPTNbGNhGdqRRhRrNtFWnDnvvFZDpnFvfQDZtvWvv\n" +
-            "HcMzVcVVcHrgHzcMcmmgfQvFQnMjnWDjfnvjQFfQ\n" +
-            "VSmHJLHBJrTrJTlT\n" +
-            "NjnsHjLLjNRddNdBFBSR\n" +
-            "ftsbqfDcDqsrDtqsfSVBhJVFJgdBRVFS\n" +
-            "wvDqwtDlsDDczjzjHvLzLQQM\n" +
-            "qDwstwDtRfpJfVhBVZBMvnlRvv\n" +
-            "zSFzQHFWdgZBVTZhTzrp\n" +
-            "NHdggjGjWHQFPWHNPPbpJfPDtCwCtqDqJfbt\n" +
-            "pvnbqHvnTvlCCpjsBsMGBGWWPp\n" +
-            "RJSJhJCRVJmJwScrhSJdfwFsBGhZBjhGFFFFGgFPGhZW\n" +
-            "cdRrdmwtfcdSmLtcSCQlvQNqQTlqqvtTlv\n" +
-            "rnSlSrgWjVGpTTRhSffpRd\n" +
-            "HtgHPsNNgNHszPcTBphMdhHhBcTc\n" +
-            "JNNbZPZZsszNmtDbPgsmJlwFvWVnCwrlmWlnjnGvCC\n" +
-            "WrVBVgVGGQCrSTTqvVjDqDjv\n" +
-            "FmwRRwwRQhhLFMjFMzdqSSzS\n" +
-            "RcJtbnnLtQWrGHcfrP\n" +
-            "vpzssjmVjVZWNZzzQwtQwccpQhgtQCct\n" +
-            "qDdfLMnMrrTbBLqTqltlTfbGQnghgRwggGgRnhhccCJJcG\n" +
-            "MtdLfSSSddMftlrjjzsSWVSjFvjNvs\n" +
-            "qTRPpRPzJglzGJzpGRHWHljwDtbwffjtbhjfwNfHmwwf\n" +
-            "SZLVdsvrrdFdBcdZvsBdDCNtbmftNwfNbNhCNvtz\n" +
-            "MLzzddLsQRppRlQGPq\n" +
-            "PDDpdJgtpppGgttgdGdgJFzLjVcvVnnCTrVrRPTLvwnTTC\n" +
-            "ZSbHBsSNlZcsfNnnvRrnVjrHwvCC\n" +
-            "NmSmsfsfhmzcDmctJW\n" +
-            "NbrLfrrLqpqWQHtBzbFttJgcgB\n" +
-            "CmwjPPjjjShPvljwvwwjPBFttBtcHzFJcHTRHJRRmT\n" +
-            "CCljjDGhvPCVdVSCdPvrrNfnnQsGqMpqqMqnFW\n" +
-            "bdPdbcDZlddsZbHjrrgrmZmCZhCGjv\n" +
-            "BffLfLVFVMMBRfwMpfzhFGFhGWvWvrhNvvNj\n" +
-            "RMBpRSnffBJjSbJqdPHsDcbqtl\n" +
-            "BgwGwDDZttDDTNND\n" +
-            "WzNNnFRWFtTFlFsh\n" +
-            "WJjPpPqqzWRbrqnNqvVvgvvdcBwgdrVBZG\n" +
-            "FFbMVMFPvJppgvcvrZMjHlCJWHmHHBlqhCmqChCl\n" +
-            "RGQVdVVLnLsQnQnnqWBlBmDRBDWWlhBD\n" +
-            "SftLzQndGfVgFfjvvM\n" +
-            "npvLlFLTWWqdLnJCmBmmpjQjjmjB\n" +
-            "tfgDwzwVVVVtgtrsJtrbjSPQjQmjNBCNBNhPHDHC\n" +
-            "ggVzVtMRgzMrvJLqFnnRnnRT\n" +
-            "gZFZssWgNZTDwHDWzsFwWDQMMpqqpBPMjFtMPSQFqqqM\n" +
-            "vrmvhdnVvQpftStnMN\n" +
-            "JCdLddhhdJdcCdrrmCGhlgNsWDWDwWsgwHgHLZHW\n" +
-            "vSsSGjSPvjvRSGpFprFbqFpppRfp\n" +
-            "ZdmlndtBZbwrwfpWFn\n" +
-            "JmdHdBBHtgllZldBhJZldLLBjPVQTfvGPNzQQSjjzPgTGNTs\n" +
-            "TjTjBjVrTsLRRrMBsMMgzLqGGqgQHQdCQGgpgd\n" +
-            "nbZcmNnPNcbNftvhlhZpgQgCqdSpgCHCqPFzSH\n" +
-            "WfcNvtmmNmQlvNcbsWWjMwMVMRDVMDJM\n" +
-            "hHHnfZSwHDgHcfclSGSnvrnvBCvWWntvzvzbWWVq\n" +
-            "dTJTmspFTsFdRRLvtvLzvvVqtPVtrb\n" +
-            "VFMNFpRJNTppTpsJVRcMGgfGfgZwghgGfcGh\n" +
-            "lLGvwsMJLCMVnTrCrVdHRd\n" +
-            "tbzqtDNNBpNWBtqzfRrFFnrVTTdrQVSVGp\n" +
-            "tztfzmfzzPDzgWNNBbhGMlJLsvhJJjGJhGmM\n" +
-            "rHrVJQVQVJLggDQQLbTvdCCSTdWLLLbCbS\n" +
-            "pNtnwPthmZGRpmPFtqbMSzqffFSdTvbSzW\n" +
-            "GpvvshwtmwsZDljjssHjVBVj\n" +
-            "SmhJdtJhhzQSrzVhtQbtBRNfnFNSnDNGRfFGGMgR\n" +
-            "lHwqPjqwTjLHCWLvPpvNrNMvnNGNfNGNBffGRN\n" +
-            "lCrPTrwpPZWlqPlqpWWqZjsmJzbzVtVhhdsJcQdddZVJ\n" +
-            "QqpCWHdQdVQlWcQCqcfRjnZZZPDnSPqPhhqZ\n" +
-            "tmmzgWGgwJwwStSZZDRnZssR\n" +
-            "GbFbLLvgmMMwGgmLCrppQrWVlWrFTHHd\n" +
-            "qdqCgSVdVSVqfwsdZhpJspZsph\n" +
-            "RjZBbmRlrlmmJwLNNNhLpwhB\n" +
-            "vZlRrtTZCzCMfSPT\n" +
-            "JBjhCNwjrlJlHJJRsscZrTcvLLgTsLPP\n" +
-            "dDztmntCSgbLgqTzgc\n" +
-            "fGVWnSMFtVGMNNNQllBjWHJC\n" +
-            "dSDhVVdVZtnSgHQGThQvFNQQqF\n" +
-            "LcfLRpMpcBpbrJfsbsscBNWRNPRGHvqPdTGPGqPWFH\n" +
-            "spmrCcrdJJpLLmcmLLLDlzSzCCjVwZVtgnSZzn\n" +
-            "ZJtgPTHtZPZQGbtNzzprVWWVrbrpCD\n" +
-            "BRlfcRmBhSMVBqSVfBvNWrDrjWCjjzprCDCl\n" +
-            "LfMRSmfqfSLcnnMqVSfccnhZwJFHZFTGZQGFLggwZTZGPJ\n" +
-            "BChWddRRRcfmDbfhDP\n" +
-            "MgpMFFsvMfGwvLgPjQPzPPmDcztDtw\n" +
-            "NFgJpqvpLgqFnWWVNSfnNSCR\n" +
-            "zMMMRmMfJpfhpzQJLMVtjtjPntgBtlZlVgJP\n" +
-            "SdNbZvZbvbHTNbZbSWTdrTVBglBDlWBjDPDgntPqBDPt\n" +
-            "rrNcrFwNdSrfzwMzZMLQQs\n" +
-            "JPmCSfHTGJdTCbHgpgqLgRhghhffhg\n" +
-            "ZWSSFVSVFQghQvwpphgh\n" +
-            "lsDtZjVMMSdCNdbGCbjb\n" +
-            "PBQPvDvVVRvQDqLDzJTlzwjz\n" +
-            "tGcZTcdgGcncdrFrsTjzJSJqJqqwHSzzSZwq\n" +
-            "CgtgdFgcFCMnMgsGFGGQWPQpQTCBvbNpNVVWVT\n" +
-            "FHVFWMHMgVhnLWWMpnppfcdZNcPplnfn\n" +
-            "RSvSCBSqGgDRjqCpPlPpppTpPjlcNP\n" +
-            "zRzsGgJDqJwLVWVFwM\n" +
-            "ThhWhNthVWTWqbWbFWbTdBtWSdMlHSlGlCGCdsCMClmnSlMn\n" +
-            "DPPpvvfDHfLgDHvzpvPDsssMsmmzsMcClScMMcGG\n" +
-            "rgPLHHJJHgZfvvZQQZfrpfFqBBwFBTNTBNBwtthQwVqt\n" +
-            "JJgSWDSmSDQCFrhbRLSwLS\n" +
-            "VznqzVNsMsZLdqslbRChtbHdHRrwHb\n" +
-            "LVfNLMsLTmWDpBpf\n" +
-            "cbTsnNpcnnchllFQlMRgJhRP\n" +
-            "WddmdMVSBMWSBWjwCJVCPRwPFCQRRC\n" +
-            "DWSSfjdSrTpDnHHMbZ\n" +
-            "fgsVqqwQQtHhCrDfJH\n" +
-            "pvbnBZWBbvWbTdthrJbDmqrmHq\n" +
-            "TvZSNSNNSvFMBpqpnLnTBZBFGQwlQFggcFzcVGRlswsRll\n" +
-            "zfMcQHzPtRNvlllc\n" +
-            "BLnMhbZMLJLNNVtCdNgZgt\n" +
-            "BJGFpqMBhBLLMqnwBhbrbhLssjFzssjfDzsmFmjmQFQPjT\n" +
-            "JPBJPnpBFrqBJHtjlCjHJcCthM\n" +
-            "wQZggQWQGfZFVmmGfDRjlvvNcvlNDhcNttlctt\n" +
-            "SfmWfwVFwVGZWQVGSTdTbBpTPSqBbLnnrn\n" +
-            "RJqBRJbqpqqJGvqHMmcfczfcjvHQfm\n" +
-            "llgVnSWSlsssTnlWjhTcsZMcZcZMZMcccMNmcH\n" +
-            "TnFhhllnWCnVCTllLnhhVSrbDDPrdpjRRqjBPRBBpbFJ\n" +
-            "mRwRRNDjNTqwDNjNnNRTsQLcQWpQWZJLlLpQWs\n" +
-            "PMFGCSzzgbBVzCGShVQZcgWsQLLftttQtlZZ\n" +
-            "SlGVldCGGbBPMhPCVSBrNNdjRqjDrNmDnmrRwN\n" +
-            "mqGGqGHnqGBCMrnGCbbbLgTTFFNNghHNTj\n" +
-            "SdRfcsDPPcDdRzWPWltSlscwTSbShhgpQhgbFLbTQFjwhN\n" +
-            "DPWWZzzztsDDtfzlscsPdcWZnVMNVqqGJnBrVqCrMrVvZnBJ\n" +
-            "ZgglFCrrrlrWCJswHmwRVmFSwSsP\n" +
-            "zhzqBLcjjnpzMzjhTtcqnVGbwssVRmqbHNPbwPsVNH\n" +
-            "ftBjzLtptRWdvZlQQZQf\n" +
-            "nGpsMncVRMGSnfsBllZdppwrTljZrQ\n" +
-            "gcgHmtbCthHWhwBFBWZBlWlWrd\n" +
-            "bCDDqHhcqbbtqcqtvJMzsGRsvVfPsfnzJV\n" +
-            "TclPvSGZsPZRjhjWDgjp\n" +
-            "JtnwHFtJqtwfQfgWgRWhdhjtgdRM\n" +
-            "JBwnHwgFFqVJrsGmPvNTPsVvSN\n" +
-            "ZJnfZNnDNZJLzNntDtDNNzNWTVBPrrvRRGdBcVRfPPcvfdMr\n" +
-            "CFgjFmggQSQQmSggVMMvRdTvBVRjrdrc\n" +
-            "mbsqQFqFgwwmgmSbwQWWLDWzpLcLnzZzLbLL\n" +
-            "PnwSFSLSTwbbHdtstW\n" +
-            "RrDZVVfJNZCmDCfVDVlblZHbddtHScbWbMjt\n" +
-            "NmzqhzCCqmzffhCCqrhhLLnPvpnTPPgpGTTBSL\n" +
-            "ShhfLSDDFMPQddpMrDgNbjzffqqqzgcjbqZR\n" +
-            "sCstmwJwVBtmTltVmTVbRbcbcRvqvrZvBRvZbR\n" +
-            "VwCnwnVrrrWShWPHHDdQFL\n" +
-            "pbpDpWjZMmFCmmmb\n" +
-            "jTjtJLJgJncCFmnJFC\n" +
-            "LvhvhTQhBSdRNtLNsSszlGrHSGjZDlGf\n" +
-            "JrhvTNJJhhCrtVtcrNLwDBSBwqzDwQVbBLQS\n" +
-            "RnCgHmHHGMdPsGMfDlDqlSQbQnQQDbzD\n" +
-            "RdPMPsmWHmjfMffPcCWrptcprpFTFrFp";
+    private static final String STRING_INPUT = """
+            shzsFcPssFhjFssBzdpRcNHNZrpdJdJVJZ
+            fwvMCntfCCbSbSbtDgDNrDtDtJHZVH
+            GbCwwbwwnGrLhBzjFFFsWPhL
+            PpCqRsqqmmtCwMJC
+            LHFrLLHDSNHlfWNhDzmjzzJlJzPJMvPJjQ
+            SGSWDNrhZhPDSWDZLgVVRgbRppgpGVnpnn
+            GRRjbVjmJZlgMRzzrN
+            FpDptHpfHfnpPTvDFTWpFPnPcMfNCClNrzcVcrMMzVsCZlsZ
+            TFTQDnvLHPFDtVbLwbjdGjdwwJ
+            lhljvvhCjjzhjszzBPmnmGVZMGzG
+            FbTcTwbtSFdtcMPnTBPQVnnBZT
+            SFMpHDtNDSSbSdwppvgJWjJCJJgWgvlJHH
+            wzNCWpzCzJnWWpRRNdJrgHLhjfbLrHrchV
+            lBMStmPmmLQDPQZlshrdhgrfrcrrddgHgs
+            mvGDGQSvDPBlGMLGCvCWpNvpzRWFwqRw
+            stBttBThtDZqPWssPWZp
+            gRggwwggCGFSBBvPRpHZZrHdZLZq
+            ccFJGCNJmmGQzbTDhnQhBBnB
+            HJqMqtZbJMmJTqtLtVMqhpfphNdQfhfzzjhhlHll
+            rWSBrnwFwWCvwWCwBgPgCgzjQccQhhgRzcdQzjfcNfzR
+            CWBCwCvCvvwssWLMtJJGMdMZJsGV
+            nFwSFQwsNrrsssSwCrhrCNnfcCRgJRMJTJcMfRzMCMCRvW
+            DdbGdLZLttllWWvTzgzzgR
+            ZqGzPdLtDjBjDZGPZVmnhQFwqrFQhVFnss
+            sNNpCjttjsJjSpgpWjslCTnqqSVffrnhSfDhmhrhfm
+            dBwcGzbPBHbbwZcwJbcTTFDFFFDVrdVmFdnDqf
+            HzGcczQPHGwzPzGHRctWlvRgtvJlvNlJvRNj
+            cFNCFdvcCHvFBCZcwBfRSpttGhDmCghGShmSRt
+            QjLnTTzQVzTTnLMqhDgPhGDDSjGPrgSh
+            TTJGnJJlLQdNWZWJNBJZ
+            WHBpHcMDZHLDbHLtGCnmRmLNGmRqvsCC
+            PzTFzPPTJzrSbGsvnmqfsqfqRz
+            dJSQQdVFQgjTrjQPWcWHbBVcZVccZtWp
+            JDtnRtJzNzTTNlHc
+            rQPJFrLPGMMwrGPFwjFMVLjSTWHdWBTdSWdWZlcWTHlZ
+            MGFrCvLLwrwPFVVhvLMGGtnqfsmRJgDnqbRgfbqmfC
+            jnTtFjcSSvctJjznzvFmpqqPMqQDRVpRqPzqQzVQ
+            bhHBfrWpfHsfGNllRrRCPqDCqPqq
+            gsGZZpbWgbwHWGNgfZNjvLSTTjtnTgjSSSSJmL
+            RLQNdVNnRQdQHVVLGpspNqvtsqptqpTtsp
+            MlRWwbRBBFMFjCTFTTFDvj
+            WmlWBmBwwmrndnmLRHRQ
+            WnftJWlfnWSHGCjWWWSCFqFGBDqBwMcDmmMmGmqD
+            pTNhpTrPhhhRPzbhrppLhThLgqDmwccwqPBmMMqnFBcwwmBB
+            ZrhQTpzdjSVVtnvZ
+            jgtnJtBjtlTdJBZJVQBngQGDCGWpPGCcPWCbWdWMbcpP
+            wHstNNttSHPDmHcMCp
+            rrFFSvLLNfsFtNSqrtfrhsNjjVTBVgVvnTBvTQvjTgjVZz
+            qhZwlqFqFwlJwrDHqHcDvgcNzv
+            RCCTQmjCbQTBtRTbjJRDpBrgDHPPpPDvHccDPc
+            VmjVWstQJhlJlGVJ
+            GggpGwZmgvgJMvbJFQQDbDFbBbFCQDCW
+            rtrLzNLtNSPnNqDSQDcQCWlqBQ
+            VtzdRPtztLtVRtZmmMTRwCGZpMwp
+            vtvqjsCqtshfjcWFHWGjGFJj
+            zGrnzDDMpPcTHcSTVTJP
+            DbDwMbZRDrZdBBnMznZMGZDfwtlgQhsqCttClsqvsLfCff
+            JLzLtLsrzsQdvrWRwMHwcc
+            qPmCTzlPjljjFTZmWwcwwvHMMRWwHvMm
+            PFqZnVCqTCNjCzNgQsbGBLzLQQ
+            CBnppDHllVpPCBshBHpjDTSmZcSrfwvmJcDDTJfw
+            dFRLdLFQzNSTBTSNmBJv
+            FzFFzRMBFWtQlPlsjjPVMnhC
+            CVCfwnfdVvBdBbTNTT
+            LNzsHPNWsDjTZqDHqT
+            PtLgQsGQLSzWLstPgGWcgQLSNrpplffrnrNhpVCwlGVlrwMn
+            jPPVqPsHffzVnHzvSgMcCJGGMSVCll
+            pdbpDpBLNmNNppJgcvgSllGjDSGQ
+            hrbBwLpjLhhhNZLhNrhZZLHzfsztFzzsrtHfRFnFfRHf
+            tdjBdbmSfdHBdHHmZlWjFrnlWQlqvMFvFn
+            pDNDJhLhPVPLLLJphJLwNcwnQTcWWTqTrqMWTZvqMrlvFM
+            gpVLhNwpgZJCghCLDNwphgmsBdzHHHmSstmfggzdbR
+            TfMpfMBVftLMDBSjWDHgzHbgwLgHHvdzggzs
+            QJnZcFFnZRHdHjJvwgdg
+            RjjRRnmNmmZNjZqZnQcVffBrWqVTqrtffTSTVV
+            fZTdTVcVjrjdBzdTnGtgnnGSHHNFGn
+            thMWPtPMslmGnWnNnS
+            thvbMvQMRphhLCjrzBjZVdcQfC
+            MpmgZFgMGdrFrBCVnJ
+            JsbJlTTlvLQbVffRRvBBRVjd
+            LWlbhHlJhLTJmmGcMMHNmNgN
+            bhvmhPrbhqNqQRRGzQjVvvRL
+            wTwBZDBTwwggfnngcDfdsVVFQCdzCzDVRsFdQs
+            pngWMcgzMgpZWncnMpWNrbNHrNbmHhltWlbl
+            nPndBjLPscWSccBVGnScsSzMdhMppMthdMgpMgrzvhhp
+            CCFTFDwqZqCCJmhvpDzztVzDNztp
+            qQFJTbRVbmCfwTwfmnnssWBGnLnWlRLSGn
+            JRlJDSvLRRCdvmDSvdlbZNVBSWZGNgWsZGNgZBVs
+            QrjPMqMnLzzjLjFnNNgBpsgtgGGGVZ
+            hrjrFqjqFrQfMHPhQzDvvCLJdwwwmvbJbwDH
+            HDGrDDDpNsGQNdZQ
+            jpjgtgjSjpjllfZZtZsvNdtshqqq
+            cbgMfjclWTJcMwjWJfpfmVPLPBnVBHnmVbnmLBbD
+            rPrMZNsNrsvrwqvFFFdgQWNzLJJzRW
+            pStppStHmcmHpgVSllVcbVbWWDdLFhdbzdRRFhJFLLRF
+            cltCHmCBmtSlgjpllgGvTwPZPMfZvPsCMCwZvC
+            FRQQMdlFMDWRFQRQMQQDWdFbSSSVJSBbJSlBVVBnPJnzJL
+            rsftPfhsrgwznSzzHSLgJG
+            fhNsjrjhvsTTvdjcCRMRMRPcCW
+            tRtJttHFrjtDQHHBQMMBgMBSghhZQb
+            vqWPLpLvqrmPdmqwvqfmPhNBBBlSnbwbgnlnlhNSZZ
+            pGpdfzLLspddmqsqPvfvvPpGTVcJJCDRjHrccRtDjcRDFD
+            GJMHCdTMWJRhSTlhhSPllt
+            fVvqpfBFrqvqNzzgVDFrpDPmSVtQSlSmhjwltlRtmVhn
+            pzpBNDBzfDrsNsDRJJRdCssMLdLZWZ
+            hFfvWWvdpCwwcwFhphpcZCMmllHLfmbQlbrQLBJmGgQrQm
+            nVSNGjGzzSVNTsjzSJrbSrHBSHlrrmQHJB
+            PttTNsTRVnNjNqRnzRzRWCCCcpMCWGPMwwFZvFwW
+            DvZbFnDDsqDBwwRQgNBm
+            HhWpWWRMWChlChdHLlGlGtQtggSNPSSpgPmNgPJQtw
+            CMlWGMhhCVHlLCdHTHdrGHdbzjVqnzcvqqjRjFbbzbFFqR
+            ZZgCNqqBmjZsNgZCqJgNBdrLFHbBrWlPdHWFbPnHPW
+            TVwTDfzDwSDzmcSTcrzdbllnHPHdFlLzbF
+            tvDQwVtVvDVmtRsNMgRpJg
+            BBpDCpNJnmnpnDDmDGGmtTzqHcGTvTTjTbGjHLVcLb
+            swNNhPwwHzTVwwHw
+            rPRlPRhSQmmBDpnNfl
+            pbRhffPzcPDmfcNTpVBLpBjMGBGjZLLg
+            ssrCsqrszgJjZMqZLQ
+            SzCwnsllCrssvdrvwzPmDmPPbFRbSThPTPDD
+            QWLfcfczQQpcDTpLPfdZRRvRRVqbFWvZbvtqvv
+            NsGGJBhCmNdZVqsbdssZ
+            rMwwwBBJMrdzPfQMpzMnLQ
+            rdtCQhrCtQQprtTWQCHFjPgGBPdFPgvBqRRPqB
+            lsVsSnVSbLmmgBcgTLTFGgvq
+            wTTDTszsbzMDppJrJhDQ
+            ZlmsGLBVCBBZFCFFHqcHVvQhqVQSSHpH
+            dbbTRMrRwwzDfrTbFtMvcptvHFQQpqtc
+            gdJTDWgfwDwTwmgmNPnNsgFBlZ
+            PWhWhGFzzzrLdHCPccbJQJcHPD
+            NRpVTpTgRWVlHJNHMcHQMb
+            pSRSpVSZWRSTZjgTRTWnFLdZLrrndhdzZvtvzn
+            LgctLgVBVLhlPjqRhBLVcVlhbDDcGnNGfwCrbNDnrGbGCJNw
+            HmppHMWWmQmMqZZHWQrDDfDCffJrDGJrCb
+            qpWZsZZZMZWTLPhTRgTtThRP
+            hfhQfFQWzBfhfTQdmzdLDtDjtvHLjt
+            qsgpcqMNRmgpqsCwpCmZDvjwvdddHZHvZDtrrd
+            SgmNmqScbTSJbhJQ
+            dvMTQvTnZJsrQdbbSvMVZMblDwlflfDGgwwHcfGjPfjjrG
+            FqBLpBpFpFzRzqNFmgjGlDRHcwPPGwgcgs
+            tLNtWshsLLqWMJhTQVVbhvJd
+            bgZLMZgzbbLCcPCbMZbcNMgBqSTqSWVtSzvvTTBTqBvRBW
+            FhQpJQnGrlhGlrnTqRtTRJqSwDwtVR
+            FqlnnFnqFHnGHHdNZdbZbCNMdPLMPb
+            HHFnbftcfnfbbTbTnHTNVZZzJlPQlFrFzVJFZsdr
+            mvpGCBgwqCvLCqvMQWWzsQQWlPzwzsrV
+            hpGSGgqSvqbHcnhfVfct
+            lGVrnHsGcnVHzscrlGjHcrHqqWPlJCPJClTLLqCSPLPdqS
+            fRbwbtMQZtMMRFMSqfJTTWCTJPJCmd
+            ggdvtvdbVVGnpDGg
+            BnBjTcbnvhjjlMnNJJfnDnQDGdNDfP
+            qwFqVSWwqLpWFmFVCSqFpDDCJNJRQTRfRDGPfdfDQN
+            zwHwWVVWWFSqqwWTLqzzztHMvBhlcghblMlcttMllh
+            PFFNPNPmlFllbctNLmcjBstrsVrQHJSSHHSnnB
+            fddfDhdwGhTWWTDMwMggssjsjndsBsjsnSrVqSVV
+            MCvvTWvRMwCvGPpzCcmbplpCVC
+            thTqlPPTNbGNhGdqRRhRrNtFWnDnvvFZDpnFvfQDZtvWvv
+            HcMzVcVVcHrgHzcMcmmgfQvFQnMjnWDjfnvjQFfQ
+            VSmHJLHBJrTrJTlT
+            NjnsHjLLjNRddNdBFBSR
+            ftsbqfDcDqsrDtqsfSVBhJVFJgdBRVFS
+            wvDqwtDlsDDczjzjHvLzLQQM
+            qDwstwDtRfpJfVhBVZBMvnlRvv
+            zSFzQHFWdgZBVTZhTzrp
+            NHdggjGjWHQFPWHNPPbpJfPDtCwCtqDqJfbt
+            pvnbqHvnTvlCCpjsBsMGBGWWPp
+            RJSJhJCRVJmJwScrhSJdfwFsBGhZBjhGFFFFGgFPGhZW
+            cdRrdmwtfcdSmLtcSCQlvQNqQTlqqvtTlv
+            rnSlSrgWjVGpTTRhSffpRd
+            HtgHPsNNgNHszPcTBphMdhHhBcTc
+            JNNbZPZZsszNmtDbPgsmJlwFvWVnCwrlmWlnjnGvCC
+            WrVBVgVGGQCrSTTqvVjDqDjv
+            FmwRRwwRQhhLFMjFMzdqSSzS
+            RcJtbnnLtQWrGHcfrP
+            vpzssjmVjVZWNZzzQwtQwccpQhgtQCct
+            qDdfLMnMrrTbBLqTqltlTfbGQnghgRwggGgRnhhccCJJcG
+            MtdLfSSSddMftlrjjzsSWVSjFvjNvs
+            qTRPpRPzJglzGJzpGRHWHljwDtbwffjtbhjfwNfHmwwf
+            SZLVdsvrrdFdBcdZvsBdDCNtbmftNwfNbNhCNvtz
+            MLzzddLsQRppRlQGPq
+            PDDpdJgtpppGgttgdGdgJFzLjVcvVnnCTrVrRPTLvwnTTC
+            ZSbHBsSNlZcsfNnnvRrnVjrHwvCC
+            NmSmsfsfhmzcDmctJW
+            NbrLfrrLqpqWQHtBzbFttJgcgB
+            CmwjPPjjjShPvljwvwwjPBFttBtcHzFJcHTRHJRRmT
+            CCljjDGhvPCVdVSCdPvrrNfnnQsGqMpqqMqnFW
+            bdPdbcDZlddsZbHjrrgrmZmCZhCGjv
+            BffLfLVFVMMBRfwMpfzhFGFhGWvWvrhNvvNj
+            RMBpRSnffBJjSbJqdPHsDcbqtl
+            BgwGwDDZttDDTNND
+            WzNNnFRWFtTFlFsh
+            WJjPpPqqzWRbrqnNqvVvgvvdcBwgdrVBZG
+            FFbMVMFPvJppgvcvrZMjHlCJWHmHHBlqhCmqChCl
+            RGQVdVVLnLsQnQnnqWBlBmDRBDWWlhBD
+            SftLzQndGfVgFfjvvM
+            npvLlFLTWWqdLnJCmBmmpjQjjmjB
+            tfgDwzwVVVVtgtrsJtrbjSPQjQmjNBCNBNhPHDHC
+            ggVzVtMRgzMrvJLqFnnRnnRT
+            gZFZssWgNZTDwHDWzsFwWDQMMpqqpBPMjFtMPSQFqqqM
+            vrmvhdnVvQpftStnMN
+            JCdLddhhdJdcCdrrmCGhlgNsWDWDwWsgwHgHLZHW
+            vSsSGjSPvjvRSGpFprFbqFpppRfp
+            ZdmlndtBZbwrwfpWFn
+            JmdHdBBHtgllZldBhJZldLLBjPVQTfvGPNzQQSjjzPgTGNTs
+            TjTjBjVrTsLRRrMBsMMgzLqGGqgQHQdCQGgpgd
+            nbZcmNnPNcbNftvhlhZpgQgCqdSpgCHCqPFzSH
+            WfcNvtmmNmQlvNcbsWWjMwMVMRDVMDJM
+            hHHnfZSwHDgHcfclSGSnvrnvBCvWWntvzvzbWWVq
+            dTJTmspFTsFdRRLvtvLzvvVqtPVtrb
+            VFMNFpRJNTppTpsJVRcMGgfGfgZwghgGfcGh
+            lLGvwsMJLCMVnTrCrVdHRd
+            tbzqtDNNBpNWBtqzfRrFFnrVTTdrQVSVGp
+            tztfzmfzzPDzgWNNBbhGMlJLsvhJJjGJhGmM
+            rHrVJQVQVJLggDQQLbTvdCCSTdWLLLbCbS
+            pNtnwPthmZGRpmPFtqbMSzqffFSdTvbSzW
+            GpvvshwtmwsZDljjssHjVBVj
+            SmhJdtJhhzQSrzVhtQbtBRNfnFNSnDNGRfFGGMgR
+            lHwqPjqwTjLHCWLvPpvNrNMvnNGNfNGNBffGRN
+            lCrPTrwpPZWlqPlqpWWqZjsmJzbzVtVhhdsJcQdddZVJ
+            QqpCWHdQdVQlWcQCqcfRjnZZZPDnSPqPhhqZ
+            tmmzgWGgwJwwStSZZDRnZssR
+            GbFbLLvgmMMwGgmLCrppQrWVlWrFTHHd
+            qdqCgSVdVSVqfwsdZhpJspZsph
+            RjZBbmRlrlmmJwLNNNhLpwhB
+            vZlRrtTZCzCMfSPT
+            JBjhCNwjrlJlHJJRsscZrTcvLLgTsLPP
+            dDztmntCSgbLgqTzgc
+            fGVWnSMFtVGMNNNQllBjWHJC
+            dSDhVVdVZtnSgHQGThQvFNQQqF
+            LcfLRpMpcBpbrJfsbsscBNWRNPRGHvqPdTGPGqPWFH
+            spmrCcrdJJpLLmcmLLLDlzSzCCjVwZVtgnSZzn
+            ZJtgPTHtZPZQGbtNzzprVWWVrbrpCD
+            BRlfcRmBhSMVBqSVfBvNWrDrjWCjjzprCDCl
+            LfMRSmfqfSLcnnMqVSfccnhZwJFHZFTGZQGFLggwZTZGPJ
+            BChWddRRRcfmDbfhDP
+            MgpMFFsvMfGwvLgPjQPzPPmDcztDtw
+            NFgJpqvpLgqFnWWVNSfnNSCR
+            zMMMRmMfJpfhpzQJLMVtjtjPntgBtlZlVgJP
+            SdNbZvZbvbHTNbZbSWTdrTVBglBDlWBjDPDgntPqBDPt
+            rrNcrFwNdSrfzwMzZMLQQs
+            JPmCSfHTGJdTCbHgpgqLgRhghhffhg
+            ZWSSFVSVFQghQvwpphgh
+            lsDtZjVMMSdCNdbGCbjb
+            PBQPvDvVVRvQDqLDzJTlzwjz
+            tGcZTcdgGcncdrFrsTjzJSJqJqqwHSzzSZwq
+            CgtgdFgcFCMnMgsGFGGQWPQpQTCBvbNpNVVWVT
+            FHVFWMHMgVhnLWWMpnppfcdZNcPplnfn
+            RSvSCBSqGgDRjqCpPlPpppTpPjlcNP
+            zRzsGgJDqJwLVWVFwM
+            ThhWhNthVWTWqbWbFWbTdBtWSdMlHSlGlCGCdsCMClmnSlMn
+            DPPpvvfDHfLgDHvzpvPDsssMsmmzsMcClScMMcGG
+            rgPLHHJJHgZfvvZQQZfrpfFqBBwFBTNTBNBwtthQwVqt
+            JJgSWDSmSDQCFrhbRLSwLS
+            VznqzVNsMsZLdqslbRChtbHdHRrwHb
+            LVfNLMsLTmWDpBpf
+            cbTsnNpcnnchllFQlMRgJhRP
+            WddmdMVSBMWSBWjwCJVCPRwPFCQRRC
+            DWSSfjdSrTpDnHHMbZ
+            fgsVqqwQQtHhCrDfJH
+            pvbnBZWBbvWbTdthrJbDmqrmHq
+            TvZSNSNNSvFMBpqpnLnTBZBFGQwlQFggcFzcVGRlswsRll
+            zfMcQHzPtRNvlllc
+            BLnMhbZMLJLNNVtCdNgZgt
+            BJGFpqMBhBLLMqnwBhbrbhLssjFzssjfDzsmFmjmQFQPjT
+            JPBJPnpBFrqBJHtjlCjHJcCthM
+            wQZggQWQGfZFVmmGfDRjlvvNcvlNDhcNttlctt
+            SfmWfwVFwVGZWQVGSTdTbBpTPSqBbLnnrn
+            RJqBRJbqpqqJGvqHMmcfczfcjvHQfm
+            llgVnSWSlsssTnlWjhTcsZMcZcZMZMcccMNmcH
+            TnFhhllnWCnVCTllLnhhVSrbDDPrdpjRRqjBPRBBpbFJ
+            mRwRRNDjNTqwDNjNnNRTsQLcQWpQWZJLlLpQWs
+            PMFGCSzzgbBVzCGShVQZcgWsQLLftttQtlZZ
+            SlGVldCGGbBPMhPCVSBrNNdjRqjDrNmDnmrRwN
+            mqGGqGHnqGBCMrnGCbbbLgTTFFNNghHNTj
+            SdRfcsDPPcDdRzWPWltSlscwTSbShhgpQhgbFLbTQFjwhN
+            DPWWZzzztsDDtfzlscsPdcWZnVMNVqqGJnBrVqCrMrVvZnBJ
+            ZgglFCrrrlrWCJswHmwRVmFSwSsP
+            zhzqBLcjjnpzMzjhTtcqnVGbwssVRmqbHNPbwPsVNH
+            ftBjzLtptRWdvZlQQZQf
+            nGpsMncVRMGSnfsBllZdppwrTljZrQ
+            gcgHmtbCthHWhwBFBWZBlWlWrd
+            bCDDqHhcqbbtqcqtvJMzsGRsvVfPsfnzJV
+            TclPvSGZsPZRjhjWDgjp
+            JtnwHFtJqtwfQfgWgRWhdhjtgdRM
+            JBwnHwgFFqVJrsGmPvNTPsVvSN
+            ZJnfZNnDNZJLzNntDtDNNzNWTVBPrrvRRGdBcVRfPPcvfdMr
+            CFgjFmggQSQQmSggVMMvRdTvBVRjrdrc
+            mbsqQFqFgwwmgmSbwQWWLDWzpLcLnzZzLbLL
+            PnwSFSLSTwbbHdtstW
+            RrDZVVfJNZCmDCfVDVlblZHbddtHScbWbMjt
+            NmzqhzCCqmzffhCCqrhhLLnPvpnTPPgpGTTBSL
+            ShhfLSDDFMPQddpMrDgNbjzffqqqzgcjbqZR
+            sCstmwJwVBtmTltVmTVbRbcbcRvqvrZvBRvZbR
+            VwCnwnVrrrWShWPHHDdQFL
+            pbpDpWjZMmFCmmmb
+            jTjtJLJgJncCFmnJFC
+            LvhvhTQhBSdRNtLNsSszlGrHSGjZDlGf
+            JrhvTNJJhhCrtVtcrNLwDBSBwqzDwQVbBLQS
+            RnCgHmHHGMdPsGMfDlDqlSQbQnQQDbzD
+            RdPMPsmWHmjfMffPcCWrptcprpFTFrFp""";
 }
