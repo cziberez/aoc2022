@@ -1,6 +1,7 @@
 package aoc2022;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class Nap01 {
@@ -15,19 +16,19 @@ public class Nap01 {
     }
 
     private static List<Integer> elfekFeldolgozasa(String stringInput) {
-        int[] jelenlegi = new int[]{0};
+        int jelenlegi = 0;
         String[] split = stringInput.split("\n");
         List<Integer> elfek = new ArrayList<>(split.length);
         for (String sor : split) {
-            if (sor.isBlank()) {
-                elfek.add(jelenlegi[0]);
-                jelenlegi[0] = 0;
+            if (sor.isEmpty()) {
+                elfek.add(jelenlegi);
+                jelenlegi = 0;
             } else {
-                jelenlegi[0] = Integer.parseInt(sor);
+                jelenlegi = Integer.parseInt(sor);
             }
         }
-        elfek.add(jelenlegi[0]);
-        elfek.sort((a, b) -> b - a);
+        elfek.add(jelenlegi);
+        elfek.sort(Collections.reverseOrder());
         return elfek;
     }
 
