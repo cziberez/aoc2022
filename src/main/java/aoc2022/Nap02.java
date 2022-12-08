@@ -81,7 +81,7 @@ public class Nap02 {
     }
 
     private static int megoldas1(List<Jatek> jatekok) {
-        return jatekok.stream().mapToInt(g -> enPontjaimSzama(g.enKoPapirOllo(), g.ellenfelKoPapirOllo())).sum();
+        return jatekok.stream().mapToInt(jatek -> enPontjaimSzama(jatek.enKoPapirOllo(), jatek.ellenfelKoPapirOllo())).sum();
     }
 
     private static int megoldas2(List<Jatek> jatekok) {
